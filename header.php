@@ -19,7 +19,6 @@
                     <li class="nav-item"><a class="nav-link" href="/wifi.php">Connexion Wi-Fi</a></li>
                     <li class="nav-item"><a class="nav-link" href="/bluetooth.php">Microphone bluetooth</a></li>
                     <li class="nav-item"><a class="nav-link" href="/audio.php">Niveaux audio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/update.php">Mises à jour</a></li>
                     <li class="nav-item"><a class="nav-link" href="/expert.php">Mode expert</a></li>
                 </ul>
             </div>
