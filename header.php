@@ -11,16 +11,15 @@
 </head>
 <body data-bs-theme="dark">
     <div class="container">
-        <h1 class="text-center">NikSpot version 0.0.0 alpha</h1>
+        <h1 class="text-center">NIKSPOT ECHOLINK</h1>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-1">
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav d-flex justify-content-around w-100">
-                    <li class="nav-item"><a class="nav-link" href="/index.php">Paramètres généraux</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/wifi.php">Connexion Wi-Fi</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/bluetooth.php">Microphone bluetooth</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/audio.php">Niveaux audio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/expert.php">Mode expert</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/">🏠 Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/echolink.php">🔧 Paramètres EchoLink</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/wifi.php">📶 Paramètres Wi-Fi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/audio.php">🔊 Paramètres audio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/expert.php">🧠 Configuration avancée</a></li>
                 </ul>
             </div>
         </nav>
-<hr class="mb-5">
