@@ -11,15 +11,40 @@
 </head>
 <body data-bs-theme="dark">
     <div class="container">
-        <h1 class="text-center">NIKSPOT ECHOLINK</h1>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-1">
+        <h1 class="text-center mt-4">NIKSPOT ECHOLINK</h1>
+        <nav class="navbar navbar-expand navbar-dark bg-dark mb-1">
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav d-flex justify-content-around w-100">
-                    <li class="nav-item"><a class="nav-link" href="/">🏠 Accueil</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/echolink.php">🔧 Paramètres EchoLink</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/wifi.php">📶 Paramètres Wi-Fi</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/audio.php">🔊 Paramètres audio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/expert.php">🧠 Configuration avancée</a></li>
+                <ul class="navbar-nav d-flex justify-content-around w-100 mb-4">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">
+                            <span class="d-md-none fs-1">🏠</span>
+                            <span class="d-none d-md-inline">🏠 Accueil</span>                            
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/echolink.php">
+                            <span class="d-md-none fs-1">🔧</span> 
+                            <span class="d-none d-md-inline">🔧 EchoLink</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/wifi.php">
+                            <span class="d-md-none fs-1">📶</span>
+                            <span class="d-none d-md-inline">📶 Wi-Fi</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/audio.php">
+                            <span class="d-md-none fs-1">🔊</span>
+                            <span class="d-none d-md-inline">🔊 Audio</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/expert.php">
+                            <span class="d-md-none fs-1">🧠</span>
+                            <span class="d-none d-md-inline">🧠 Expert</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </nav>
