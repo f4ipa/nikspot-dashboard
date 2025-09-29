@@ -22,6 +22,13 @@
                         </a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="/programmateur.php">
+                            <span class="d-md-none fs-1">⏱️</span>
+                            <span class="d-none d-md-inline">⏱️ Programmateur</span>                            
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
                         <a class="nav-link" href="/echolink.php">
                             <span class="d-md-none fs-1">🔧</span> 
                             <span class="d-none d-md-inline">🔧 EchoLink</span>
