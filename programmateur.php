@@ -32,7 +32,7 @@ else $crons = explode("\n",$crons);
 
 <div class="row">
     <div class="col-md-6">
-        <fieldset class="border p-3 rounded">
+        <fieldset class="border p-3 rounded sticky-top">
             <legend class="w-auto mb-3">Programme de la semaine</legend>
             <table class="table text-center">
                 <thead>
@@ -88,7 +88,7 @@ else $crons = explode("\n",$crons);
                     <label for="macro" class="form-label">Macro</label>
                     <input type="number" min="00" max="999" id="macro" name="macro" class="form-control" required>
                 </div>
-                <button name="add" type="submit" class="btn btn-primary mt-4">Ajouter a la programmation</button>
+                <button name="add" type="submit" class="w-100 btn btn-primary mt-4">Ajouter a la programmation</button>
             </form>
         </fieldset>
     </div>
