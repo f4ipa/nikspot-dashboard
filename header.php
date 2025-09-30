@@ -22,6 +22,12 @@
                         </a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="/macros.php">
+                            <span class="d-md-none fs-1">🔢</span>
+                            <span class="d-none d-md-inline">🔢 Macros</span>                            
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="/programmateur.php">
                             <span class="d-md-none fs-1">⏱️</span>
                             <span class="d-none d-md-inline">⏱️ Programmateur</span>                            
