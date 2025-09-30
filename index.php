@@ -11,7 +11,9 @@ require('header.php');
 
 $svxlink_file = '/etc/svxlink/svxlink.conf';
 $content = file_get_contents($svxlink_file);
-preg_match_all('/(\d+)=:##(\d+)#/', $content, $macros);
+preg_match_all('/(\d+)=:##(\d+)#/', $content, $matches);
+$macros = array_combine($matches[1], $matches[2]);
+ksort($macros);
 
 $nodes_file = '/etc/svxlink/nodes.json';
 if (time() - filemtime($nodes_file) > 300)
@@ -22,13 +24,13 @@ $nodes = json_decode($content, true);
 ?>
 
 <ul class="row gx-3 gy-3 list-unstyled text-center text-dark">
-    <?php foreach ($macros[1] as $k => $dtmf): ?>
-        <?php if (isset($nodes[$macros[2][$k]])): ?>
+    <?php foreach ($macros as $dtmf => $macro): ?>
+        <?php if (isset($nodes[$macro])): ?>
             <li class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <a href="?dtmf=<?= $dtmf ?>" class="d-block p-3 bg-light bg-gradient border rounded text-decoration-none">
-                    <strong class="fs-5"><?= $nodes[$macros[2][$k]]['callsign'] ?> (D<?= $dtmf ?>)</strong>
+                    <strong class="fs-5"><?= $nodes[$macro]['callsign'] ?> (D<?= $dtmf ?>)</strong>
                     <br>
-                    <?= $nodes[$macros[2][$k]]['name'] ?>
+                    <?= $nodes[$macro]['name'] ?>
                 </a>
             </li>
         <?php endif ?>
