@@ -86,7 +86,7 @@ else $crons = explode("\n",$crons);
                 </div>
                 <div class="form-group mt-4">
                     <label for="macro" class="form-label">Macro</label>
-                    <input type="number" min="00" max="999" id="macro" name="macro" class="form-control" required>
+                    <input type="number" min="00" max="9999" id="macro" name="macro" class="form-control" required>
                 </div>
                 <button name="add" type="submit" class="w-100 btn btn-primary mt-4">Ajouter a la programmation</button>
             </form>

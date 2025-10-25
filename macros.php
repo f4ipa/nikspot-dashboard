@@ -27,7 +27,7 @@ require('functions.php');
 require('header.php');
 
 $content = file_get_contents($svxlink);
-preg_match_all("/(\d{2,3})=:##(\d{4,6})#/", $content, $matches);
+preg_match_all("/(\d+)=:##(\d+)#/", $content, $matches);
 $macros = array_combine($matches[1], $matches[2]);
 ksort($macros);
 ?>
@@ -68,7 +68,7 @@ ksort($macros);
             <form action="" method="POST">
                 <div class="form-group mt-4">
                     <label for="macro" class="form-label">Macro</label>
-                    <input type="number" min="00" max="999" id="macro" name="macro" class="form-control" required>
+                    <input type="number" min="01" max="9999" id="macro" name="macro" class="form-control" required>
                 </div>
                 <div class="form-group mt-4">
                     <label for="node" class="form-label">Station</label>
