@@ -7,11 +7,11 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-    <title>NIKSPOT</title>
+    <title>ECHOSPOT</title>
 </head>
 <body data-bs-theme="dark">
     <div class="container">
-        <h1 class="text-center mt-4">NIKSPOT ECHOLINK</h1>
+        <h1 class="text-center mt-4">ECHOSPOT</h1>
         <nav class="navbar navbar-expand navbar-dark bg-dark mb-1">
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav d-flex justify-content-around w-100 mb-4">
