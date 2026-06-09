@@ -53,6 +53,12 @@
                         </a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="/radio.php">
+                            <span class="d-md-none fs-1">📻</span>
+                            <span class="d-none d-md-inline">📻 Radio</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="/expert.php">
                             <span class="d-md-none fs-1">🧠</span>
                             <span class="d-none d-md-inline">🧠 Expert</span>
